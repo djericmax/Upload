@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "UploadImagem-APP"
+    }
+  },
+  "defaultProject": "UploadImagem-APP",
+  "cli": {
+    "analytics": "4affb351-bfe2-4f4b-bbde-0e7696da1814"
+  }
 }

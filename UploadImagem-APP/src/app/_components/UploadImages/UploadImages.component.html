@@ -1,0 +1,13 @@
+<div class="container" style="margin-top: 5%;">
+  <div>
+    <input class="btn btn-default" type="file" #file
+    (change)="onSelectFile($event)" style="display: none;">
+
+    <button class="btn btn-info" (click)="file.click()">Selecionar Imagem</button>
+
+  </div>
+  <div *ngIf="msg != null" class="alert alert-secondary"
+  role="alert" style="margin-top: 5%; text-align: center;">
+    <h3>{{msg}}</h3>
+  </div>
+</div>
